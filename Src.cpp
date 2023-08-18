@@ -163,8 +163,8 @@ int main()
 		for (int k = 0; k < 4; ++k)
 		{
 			//AsyncKeystate tells us whether key is pressed or not
-			// \x27\x25\x28Z are hexd values for R, L, D and Z key
-			Key[k] = (0x8000 & GetAsyncKeyState((unsigned char)("\x27\x25\x28Z"[k]))) != 0;
+			// \x27\x25\x28Z are hexd values for Right, Left, Down and R(to rotate) key
+			Key[k] = (0x8000 & GetAsyncKeyState((unsigned char)("\x27\x25\x28R"[k]))) != 0;
 		}
 
 
