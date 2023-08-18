@@ -1,5 +1,5 @@
 # Tetris-With-A-Twist
 A Game which is under development
 
-Working On a console based game called tetris with a twist(TWAT).
+Working On a console based game called Strange Tetris.
 Have Implemented The Game Tetris So Far.
